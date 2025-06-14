@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # allows push access
+          token: ${{ secrets.GITHUB_TOKEN }}  #  allows push access
 
       - name: Commit step - 23f3002638@ds.study.iitm.ac.in
         run: |
